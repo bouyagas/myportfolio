@@ -95,6 +95,10 @@
 * {
   box-sizing: border-box; }
 
+html {
+  width: 100vw;
+  height: 100vh; }
+
 body {
   background: #1a1a1d;
   color: #fff;
@@ -105,7 +109,8 @@ body {
   body#bg-img {
     background: url(../img/office.jpeg);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    background-position: top; }
     body#bg-img:after {
       content: '';
       position: absolute;
